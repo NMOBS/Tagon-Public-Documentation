@@ -28,15 +28,15 @@
 > **AvailableFormat** (String)
 > 
 >  İzin verilen formatlar.
->  Placement | Format | Name
->  -- | -- | --
->  FULLPAGE | Popup | POPUP
->  FULLPAGE | Push Down | PUSHDOWN
->  FULLPAGE | Scroll Reveal | SCROLLREVEAL
->  IN-READ | Video | INREAD
->  IN-READ | Parallax | PARALLAX
->  IN-READ | Native Scroll | NATIVESCROLL
->  MASTHEAD | Roll Over Masthead | ROLLOVER
+Placement | Format | Name
+-- | -- | --
+FULLPAGE | Popup | POPUP
+FULLPAGE | Push Down | PUSHDOWN
+FULLPAGE | Scroll Reveal | SCROLLREVEAL
+IN-READ | Video | INREAD
+IN-READ | Parallax | PARALLAX
+IN-READ | Native Scroll | NATIVESCROLL
+MASTHEAD | Roll Over Masthead | ROLLOVER
 >  
 >  *AvailableFormat: "POPUP,SCROLLREVEAL"*
 
