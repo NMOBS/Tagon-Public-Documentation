@@ -20,13 +20,13 @@
 # -- Project information -----------------------------------------------------
 
 project = u'Tagon Docs'
-copyright = u'2018, Enes DABANLIOGLU'
-author = u'Enes DABANLIOGLU'
+copyright = u'Copyright 2017-2018, Tagon'
+author = u'Dev Team'
 
 # The short X.Y version
 version = u''
 # The full version, including alpha/beta/rc tags
-release = u'2017'
+release = u''
 
 
 # -- General configuration ---------------------------------------------------
@@ -74,7 +74,9 @@ pygments_style = 'sphinx'
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'alabaster'
+html_theme = 'sphinx_rtd_theme'
+
+highlight_language = 'javascript'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -129,7 +131,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'TagonDocs.tex', u'Tagon Docs Documentation',
-     u'Enes DABANLIOGLU', 'manual'),
+     u'Dev Team', 'manual'),
 ]
 
 
